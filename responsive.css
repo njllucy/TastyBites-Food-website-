@@ -40,7 +40,6 @@
         .img-section{
             margin-left:6rem;
             align-items: center;
-            margin-top: 0.0rem;
             display: grid;
             grid-template-columns:repeat(1,1fr) ;
             
@@ -54,6 +53,7 @@
             display: grid;
             align-items: center;
             margin-left: 3rem;
+            grid-row-gap:40px;
         }
         .line{
             display: none;
@@ -141,7 +141,12 @@
             justify-content: space-between;
         }
         .footer-icons-flex{
-          margin-left: 7rem;
+          margin-left: 5rem;
+        }
+    .footer-flex{
+            display:grid;
+            grid-row-gap:10px;
+            align-items: center;
         }
       
 }
